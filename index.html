@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Main</title>
+
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/mycss.css">
+</head>
+
+<body>
+
+    <!-- header -- navbar-->
+
+    <header>
+        <div class="navbar-fixed">
+
+            <!-- Modal Structure -->
+            <div id="modal1" class="modal orange lighten-5">
+                <div class="modal-content">
+                    <div class="row">
+                        <form class="col s12">
+                            <div class="row">
+                                <div class="input-field col s12 m6">
+                                    <i class="fas fa-user-circle prefix"></i>
+                                    <input id="icon_prefix" type="text" class="validate">
+                                    <label for="icon_prefix">user name</label>
+                                </div>
+                                <div class="input-field col s12 m6">
+                                    <i class="far fa-envelope prefix"></i>
+                                    <input id="icon_telephone" type="tel" class="validate">
+                                    <label for="icon_telephone">email</label>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="modal-footer orange lighten-5">
+                    <a class="modal-close waves-effect waves-light btn black">ok</a>
+                </div>
+            </div>
+
+            <nav class="orange darken-3">
+                <div class="nav-wrapper container">
+                    <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="fas fa-bars"></i></a>
+                    <a href="#" class="brand-logo">Pedalea</a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li class="active"><a href="index.html">Main</a></li>
+                        <li><a href="catalogo.html">Shop</a></li>
+                        <li><a href="nosotros.html">About us</a></li>
+                        <li><a href="form.html">Form</a></li>
+                        <li><a href="contacto.html">Contact us</a></li>
+                        <li><a class="modal-trigger" href="#modal1"><i class="far fa-user small"></i></a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+        <!-- Sidenavbar -->
+
+        <ul id="slide-out" class="sidenav">
+            <li>
+                <div class="user-view">
+                    <div class="background">
+                        <img src="images/aboutUs.jpg" width="350px">
+                    </div>
+                    <a href="#user"><img class="circle" src="images/logo imagen.jpg"></a>
+                    <a href="#name"><span class="white-text name">John Doe</span></a>
+                    <a href="#email"><span class="white-text email">jdandturk@gmail.com</span></a>
+                </div>
+            </li>
+            <li><a href="#" class ="modal-trigger"><i class="far fa-user small"></i>Log in</a></li>
+            <li><a href="#!">Sign in</a></li>
+            <li>
+                <div class="divider"></div>
+            </li>
+            <li><a class="subheader">Menu</a></li>
+            <li><a class="waves-effect" href="index.html">Main</a></li>
+            <li><a class="waves-effect" href="catalogo.html">Shop</a></li>
+            <li><a class="waves-effect" href="nosotros.html">About us</a></li>
+            <li><a class="waves-effect" href="form.html">Form</a></li>
+            <li><a class="waves-effect" href="contacto.html">Contact us</a></li>
+            <li>
+                <div class="mysearch">
+                    <form>
+                        <div class="input-field">
+                            <input id="search" type="search" required>
+                            <label class="label-icon" for="search"><i class="fas fa-search"></i></label>
+                            <!-- <i class="fas fa-times"></i> -->
+                        </div>
+                    </form>
+                </div>
+
+            </li>
+        </ul>
+
+    </header>
+
+
+    <!-- Main content -->
+
+    <main>
+
+        <!-- Parallax section -->
+
+        <div class="parallax-container">
+            <div class="container mybrand valign-wrapper">
+                <h1 class="header center">Pedalea</h1>
+            </div>
+            <div class="parallax"><img src="images/bici-portada.jpg"></div>
+        </div>
+
+
+        <div class="section white">
+            <div class="row container">
+                <h3 class="header">Your bike´s website</h3>
+                <a class="btn tooltipped black" href="catalogo.html" data-position="right" data-tooltip="Discover more">Go!</a>
+                <p class="grey-text text-darken-3 lighten-3 promo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+                    finibus varius lacus, eu fringilla erat volutpat sit amet. Fusce sit lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit.</p>
+            </div>
+        </div>
+
+        <div class="parallax-container">
+            <div class="parallax"><img src="images/bici-portada.jpg"></div>
+        </div>
+
+        <!-- Promotion table -->
+
+        <div class="container">
+            <div class="row promo">
+                <div class="col s4">
+                    <div class="center">
+                        <i class="medium fas fa-user-cog"></i>
+                        <h5>We repair everything</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla finibus varius lacus</p>
+                    </div>
+                </div>
+                <div class="col s4">
+                    <div class="center">
+                        <i class="medium far fa-smile"></i>
+                        <h5>Big deals</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla finibus varius lacus</p>
+                    </div>
+                </div>
+                <div class="col s4">
+                    <div class="center">
+                        <i class="medium fas fa-paper-plane"></i>
+                        <h5>Fast service</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla finibus varius lacus</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+
+    <!-- Footer -->
+
+
+    <footer class="page-footer orange darken-3">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Contenido</h5>
+                    <ul class="footer-list">
+                        <li><a class="grey-text text-lighten-3">Blog</a></li>
+                        <li><a class="grey-text text-lighten-3">Lo mas popular</a></li>
+                        <li><a class="grey-text text-lighten-3">Tendencias</a></li>
+                    </ul>
+                    <p class="grey-text text-lighten-4">Come to visit us and bring your bike. You can find us here</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Links</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="https://es-es.facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
+                        <li><a class="grey-text text-lighten-3" href="https://www.instagram.com/?hl=es" target="_blank"><i
+                                    class="fab fa-instagram"></i></a></li>
+                        <li><a class="grey-text text-lighten-3" href="https://twitter.com/?lang=es" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                        <li><a class="grey-text text-lighten-3" href="https://es.linkedin.com/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2018 Copyright Text
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <!-- Crear una galeria de imagenes -->
+
+    <!-- <div class="row">
+        <div class="col s2">
+            <img class="circle responsive-img" src="">
+        </div>
+        <div class="col s2">
+            <img class="responsive-img" src="">
+        </div>
+        <div class="col s2">
+            <img class="responsive-img" src="">
+        </div>
+    </div> -->
+
+
+    <!-- Scripts -->
+
+    <script src="js/materialize.min.js"></script>
+    <script src="js/myjavascript.js"></script>
+</body>
+
+</html>

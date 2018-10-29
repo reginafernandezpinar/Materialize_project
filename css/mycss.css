@@ -1,0 +1,105 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+main {
+    flex: 1 0 auto;
+  }
+
+.mysearch {
+    margin: 10px 30px;
+}
+
+.parallax-container {
+    min-height: 380px;
+    line-height: 0;
+    height: auto;
+}
+
+.parallax-container .mybrand {
+    height: 300px;
+    margin-top: 50px;
+}
+
+.mybrand h1 {
+    font-size: 6rem;
+}
+
+.promo {
+    margin-top: 40px;
+}
+
+
+/* Catalogo: Carousel */
+
+
+.carousel-container {
+    margin-top: 30px;
+}
+
+/* .mycarousel {
+   min-height: 300px;
+   height: 300px;
+} */
+
+/* Catalogo: Image gallery section */
+
+.gallery-container {
+    margin: 30px;
+}
+
+.gallery-container .gallery-card {
+    padding: 24px;
+}
+
+
+/* About us */
+
+.mycollapsible {
+    border: none;
+    box-shadow: none;
+}
+.mycardrow {
+    margin-top: 40px;
+}
+
+.mycardimage {
+    filter: grayscale(100%);
+}
+
+.mycardimage:hover {
+    filter: none;
+}
+
+
+.mycardrow .card .card-title {
+    font-size: 20px;
+}
+
+
+
+/* Form */
+.myform-container {
+    margin-top: 8%;
+}
+
+.yourpicture {
+    height: 25vh;
+    /* width: auto; */
+    background-image: url(../images/logo\ imagen.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.file-path-wrapper > .file-path {
+    width: 0 !important;
+}
+
+/* Footer */
+
+.footer-list {
+    list-style: none;
+}
